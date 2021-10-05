@@ -30,3 +30,19 @@ My previous work experience has increased my knowledge of managing Information S
 - **Russian** - Fluent
 - **Turkish** - Pre Intermediate
 - **Kazakh** - Native
+
+### Code example:
+
+```
+JavaScript
+const buildUrl = (address, domen) => {
+
+if (address.startsWith('/')) {
+  const startsWithSlash = 'https:' + '//' + domen + address;
+  return startsWithSlash;
+} else {
+  const domenaddress = 'https:' + '//' + domen + '/' + address
+  return domenaddress;
+}
+}
+```
