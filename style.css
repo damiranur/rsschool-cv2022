@@ -1,0 +1,129 @@
+body {
+  margin: auto;
+  max-width: 1024;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.left {
+  flex: 20%;
+  background-color: #f6d9ec;
+  padding: 8px;
+}
+.right {
+  flex: 80%;
+}
+.profile-info {
+  text-align: center;
+}
+.img-style {
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.contact {
+  border-bottom: 1px solid #fff;
+  text-align: center;
+}
+.phone-icon {
+  margin: right;
+}
+.contact-phone {
+  display: flex;
+  flex-direction: row;
+}
+.phone-detail {
+  padding-left: 5px;
+}
+.contact-email {
+  display: flex;
+  flex-direction: row;
+}
+.email-detail {
+  padding-left: 5px;
+}
+.contact-address {
+  display: flex;
+  flex-direction: row;
+}
+.address-detail {
+  padding-left: 10px;
+}
+.profile {
+  border-bottom: 1px solid #fff;
+  text-align: center;
+}
+.hobbies {
+  border-bottom: 1px solid #fff;
+  text-align: center;
+}
+.hobbies-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+.social-media {
+  border-bottom: 1px solid #fff;
+  text-align: center;
+}
+.sm-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+.experience-group {
+  padding: 8px;
+}
+
+.experience {
+  border-bottom: 1px solid #f6d9ec;
+}
+.education-group {
+  padding: 8px;
+}
+.edu-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.edu-it {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.education {
+  border-bottom: 1px solid #f6d9ec;
+}
+.languages-group {
+  padding: 8px;
+}
+.languages {
+  border-bottom: 1px solid #f6d9ec;
+}
+.lang {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.ps-ill-fgm-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+.html-css-js-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+.skills-group {
+  padding: 8px;
+}
+.skills {
+  border-bottom: 1px solid #f6d9ec;
+}
