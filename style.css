@@ -1,21 +1,28 @@
 body {
-  margin: auto;
-  max-width: 1024;
+  margin: 20px auto;
+  max-width: 1024px;
+  background-color: #f5f5f5;
+  box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%);
 }
-
-.row {
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #f6d9ec;
+}
+.container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  background-color: #fff;
 }
 .left {
-  flex: 20%;
+  flex: 25%;
   background-color: #f6d9ec;
   padding: 8px;
 }
 .right {
-  flex: 80%;
+  flex: 75%;
 }
 .profile-info {
   text-align: center;
@@ -126,4 +133,14 @@ body {
 }
 .skills {
   border-bottom: 1px solid #f6d9ec;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f6d9ec;
+  padding: 8px;
+  align-items: center;
+}
+.github-icon {
+  background: #f6d9ec;
 }
