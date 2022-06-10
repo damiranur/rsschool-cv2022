@@ -266,10 +266,9 @@
           <pre class="pre">
             <code>
 JavaScript
-function getParticipants(handshakes){
-  let y = handshakes;
-  for(var i = 0, x = 1; i &lt y; i+=x++);
-  return x;
+function highAndLow(numbers){
+  numbers = numbers.split(' ');
+  return Math.max(...numbers) + ' ' + Math.min(...numbers);
 }                       
             </code>
           </pre>
